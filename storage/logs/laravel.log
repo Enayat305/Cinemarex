@@ -1787,3 +1787,259 @@ Stack trace:
 #22 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #23 {main}
 "} 
+[2020-09-30 11:47:10] local.ERROR: The Pusher library requires the PHP cURL module. Please ensure it is installed {"exception":"[object] (Pusher\\PusherException(code: 0): The Pusher library requires the PHP cURL module. Please ensure it is installed at D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php:232)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php(68): Pusher\\Pusher->check_compatibility()
+#1 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(217): Pusher\\Pusher->__construct('', '', '442678', Array)
+#2 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(193): Illuminate\\Broadcasting\\BroadcastManager->createPusherDriver(Array)
+#3 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(164): Illuminate\\Broadcasting\\BroadcastManager->resolve('pusher')
+#4 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(153): Illuminate\\Broadcasting\\BroadcastManager->get('pusher')
+#5 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(313): Illuminate\\Broadcasting\\BroadcastManager->driver()
+#6 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(223): Illuminate\\Broadcasting\\BroadcastManager->__call('channel', Array)
+#7 D:\\xampp\\htdocs\\cinemarex\outes\\channels.php(16): Illuminate\\Support\\Facades\\Facade::__callStatic('channel', Array)
+#8 D:\\xampp\\htdocs\\cinemarex\\app\\Providers\\BroadcastServiceProvider.php(19): require('D:\\\\xampp\\\\htdocs...')
+#9 [internal function]: App\\Providers\\BroadcastServiceProvider->boot()
+#10 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#11 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#13 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(564): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#14 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(794): Illuminate\\Container\\Container->call(Array)
+#15 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(777): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\BroadcastServiceProvider))
+#16 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\BroadcastServiceProvider), 26)
+#17 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(778): array_walk(Array, Object(Closure))
+#18 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#19 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#20 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(297): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#21 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#22 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 {main}
+"} 
+[2020-09-30 11:47:10] local.ERROR: The Pusher library requires the PHP cURL module. Please ensure it is installed {"exception":"[object] (Pusher\\PusherException(code: 0): The Pusher library requires the PHP cURL module. Please ensure it is installed at D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php:232)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php(68): Pusher\\Pusher->check_compatibility()
+#1 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(217): Pusher\\Pusher->__construct('', '', '442678', Array)
+#2 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(193): Illuminate\\Broadcasting\\BroadcastManager->createPusherDriver(Array)
+#3 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(164): Illuminate\\Broadcasting\\BroadcastManager->resolve('pusher')
+#4 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(153): Illuminate\\Broadcasting\\BroadcastManager->get('pusher')
+#5 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(313): Illuminate\\Broadcasting\\BroadcastManager->driver()
+#6 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(223): Illuminate\\Broadcasting\\BroadcastManager->__call('channel', Array)
+#7 D:\\xampp\\htdocs\\cinemarex\outes\\channels.php(16): Illuminate\\Support\\Facades\\Facade::__callStatic('channel', Array)
+#8 D:\\xampp\\htdocs\\cinemarex\\app\\Providers\\BroadcastServiceProvider.php(19): require('D:\\\\xampp\\\\htdocs...')
+#9 [internal function]: App\\Providers\\BroadcastServiceProvider->boot()
+#10 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#11 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#13 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(564): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#14 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(794): Illuminate\\Container\\Container->call(Array)
+#15 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(777): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\BroadcastServiceProvider))
+#16 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\BroadcastServiceProvider), 26)
+#17 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(778): array_walk(Array, Object(Closure))
+#18 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#19 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#20 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(297): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#21 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#22 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 {main}
+"} 
+[2020-09-30 11:47:10] local.ERROR: Uncaught Error: Class 'Arr' not found in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught Error: Class 'Arr' not found in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2020-09-30 11:48:10] local.ERROR: The Pusher library requires the PHP cURL module. Please ensure it is installed {"exception":"[object] (Pusher\\PusherException(code: 0): The Pusher library requires the PHP cURL module. Please ensure it is installed at D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php:232)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php(68): Pusher\\Pusher->check_compatibility()
+#1 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(217): Pusher\\Pusher->__construct('', '', '442678', Array)
+#2 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(193): Illuminate\\Broadcasting\\BroadcastManager->createPusherDriver(Array)
+#3 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(164): Illuminate\\Broadcasting\\BroadcastManager->resolve('pusher')
+#4 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(153): Illuminate\\Broadcasting\\BroadcastManager->get('pusher')
+#5 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(313): Illuminate\\Broadcasting\\BroadcastManager->driver()
+#6 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(223): Illuminate\\Broadcasting\\BroadcastManager->__call('channel', Array)
+#7 D:\\xampp\\htdocs\\cinemarex\outes\\channels.php(16): Illuminate\\Support\\Facades\\Facade::__callStatic('channel', Array)
+#8 D:\\xampp\\htdocs\\cinemarex\\app\\Providers\\BroadcastServiceProvider.php(19): require('D:\\\\xampp\\\\htdocs...')
+#9 [internal function]: App\\Providers\\BroadcastServiceProvider->boot()
+#10 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#11 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#13 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(564): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#14 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(794): Illuminate\\Container\\Container->call(Array)
+#15 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(777): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\BroadcastServiceProvider))
+#16 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\BroadcastServiceProvider), 26)
+#17 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(778): array_walk(Array, Object(Closure))
+#18 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#19 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#20 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(297): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#21 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#22 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 {main}
+"} 
+[2020-09-30 11:48:10] local.ERROR: The Pusher library requires the PHP cURL module. Please ensure it is installed {"exception":"[object] (Pusher\\PusherException(code: 0): The Pusher library requires the PHP cURL module. Please ensure it is installed at D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php:232)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php(68): Pusher\\Pusher->check_compatibility()
+#1 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(217): Pusher\\Pusher->__construct('', '', '442678', Array)
+#2 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(193): Illuminate\\Broadcasting\\BroadcastManager->createPusherDriver(Array)
+#3 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(164): Illuminate\\Broadcasting\\BroadcastManager->resolve('pusher')
+#4 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(153): Illuminate\\Broadcasting\\BroadcastManager->get('pusher')
+#5 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(313): Illuminate\\Broadcasting\\BroadcastManager->driver()
+#6 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(223): Illuminate\\Broadcasting\\BroadcastManager->__call('channel', Array)
+#7 D:\\xampp\\htdocs\\cinemarex\outes\\channels.php(16): Illuminate\\Support\\Facades\\Facade::__callStatic('channel', Array)
+#8 D:\\xampp\\htdocs\\cinemarex\\app\\Providers\\BroadcastServiceProvider.php(19): require('D:\\\\xampp\\\\htdocs...')
+#9 [internal function]: App\\Providers\\BroadcastServiceProvider->boot()
+#10 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#11 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#13 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(564): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#14 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(794): Illuminate\\Container\\Container->call(Array)
+#15 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(777): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\BroadcastServiceProvider))
+#16 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\BroadcastServiceProvider), 26)
+#17 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(778): array_walk(Array, Object(Closure))
+#18 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#19 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#20 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(297): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#21 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#22 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 {main}
+"} 
+[2020-09-30 11:48:10] local.ERROR: Uncaught Error: Class 'Arr' not found in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught Error: Class 'Arr' not found in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2020-09-30 11:49:10] local.ERROR: The Pusher library requires the PHP cURL module. Please ensure it is installed {"exception":"[object] (Pusher\\PusherException(code: 0): The Pusher library requires the PHP cURL module. Please ensure it is installed at D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php:232)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php(68): Pusher\\Pusher->check_compatibility()
+#1 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(217): Pusher\\Pusher->__construct('', '', '442678', Array)
+#2 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(193): Illuminate\\Broadcasting\\BroadcastManager->createPusherDriver(Array)
+#3 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(164): Illuminate\\Broadcasting\\BroadcastManager->resolve('pusher')
+#4 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(153): Illuminate\\Broadcasting\\BroadcastManager->get('pusher')
+#5 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(313): Illuminate\\Broadcasting\\BroadcastManager->driver()
+#6 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(223): Illuminate\\Broadcasting\\BroadcastManager->__call('channel', Array)
+#7 D:\\xampp\\htdocs\\cinemarex\outes\\channels.php(16): Illuminate\\Support\\Facades\\Facade::__callStatic('channel', Array)
+#8 D:\\xampp\\htdocs\\cinemarex\\app\\Providers\\BroadcastServiceProvider.php(19): require('D:\\\\xampp\\\\htdocs...')
+#9 [internal function]: App\\Providers\\BroadcastServiceProvider->boot()
+#10 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#11 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#13 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(564): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#14 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(794): Illuminate\\Container\\Container->call(Array)
+#15 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(777): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\BroadcastServiceProvider))
+#16 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\BroadcastServiceProvider), 26)
+#17 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(778): array_walk(Array, Object(Closure))
+#18 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#19 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#20 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(297): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#21 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#22 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 {main}
+"} 
+[2020-09-30 11:49:10] local.ERROR: The Pusher library requires the PHP cURL module. Please ensure it is installed {"exception":"[object] (Pusher\\PusherException(code: 0): The Pusher library requires the PHP cURL module. Please ensure it is installed at D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php:232)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php(68): Pusher\\Pusher->check_compatibility()
+#1 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(217): Pusher\\Pusher->__construct('', '', '442678', Array)
+#2 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(193): Illuminate\\Broadcasting\\BroadcastManager->createPusherDriver(Array)
+#3 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(164): Illuminate\\Broadcasting\\BroadcastManager->resolve('pusher')
+#4 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(153): Illuminate\\Broadcasting\\BroadcastManager->get('pusher')
+#5 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(313): Illuminate\\Broadcasting\\BroadcastManager->driver()
+#6 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(223): Illuminate\\Broadcasting\\BroadcastManager->__call('channel', Array)
+#7 D:\\xampp\\htdocs\\cinemarex\outes\\channels.php(16): Illuminate\\Support\\Facades\\Facade::__callStatic('channel', Array)
+#8 D:\\xampp\\htdocs\\cinemarex\\app\\Providers\\BroadcastServiceProvider.php(19): require('D:\\\\xampp\\\\htdocs...')
+#9 [internal function]: App\\Providers\\BroadcastServiceProvider->boot()
+#10 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#11 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#13 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(564): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#14 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(794): Illuminate\\Container\\Container->call(Array)
+#15 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(777): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\BroadcastServiceProvider))
+#16 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\BroadcastServiceProvider), 26)
+#17 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(778): array_walk(Array, Object(Closure))
+#18 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#19 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#20 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(297): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#21 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#22 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 {main}
+"} 
+[2020-09-30 11:49:10] local.ERROR: Uncaught Error: Class 'Arr' not found in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught Error: Class 'Arr' not found in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2020-09-30 11:50:10] local.ERROR: The Pusher library requires the PHP cURL module. Please ensure it is installed {"exception":"[object] (Pusher\\PusherException(code: 0): The Pusher library requires the PHP cURL module. Please ensure it is installed at D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php:232)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php(68): Pusher\\Pusher->check_compatibility()
+#1 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(217): Pusher\\Pusher->__construct('', '', '442678', Array)
+#2 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(193): Illuminate\\Broadcasting\\BroadcastManager->createPusherDriver(Array)
+#3 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(164): Illuminate\\Broadcasting\\BroadcastManager->resolve('pusher')
+#4 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(153): Illuminate\\Broadcasting\\BroadcastManager->get('pusher')
+#5 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(313): Illuminate\\Broadcasting\\BroadcastManager->driver()
+#6 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(223): Illuminate\\Broadcasting\\BroadcastManager->__call('channel', Array)
+#7 D:\\xampp\\htdocs\\cinemarex\outes\\channels.php(16): Illuminate\\Support\\Facades\\Facade::__callStatic('channel', Array)
+#8 D:\\xampp\\htdocs\\cinemarex\\app\\Providers\\BroadcastServiceProvider.php(19): require('D:\\\\xampp\\\\htdocs...')
+#9 [internal function]: App\\Providers\\BroadcastServiceProvider->boot()
+#10 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#11 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#13 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(564): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#14 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(794): Illuminate\\Container\\Container->call(Array)
+#15 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(777): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\BroadcastServiceProvider))
+#16 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\BroadcastServiceProvider), 26)
+#17 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(778): array_walk(Array, Object(Closure))
+#18 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#19 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#20 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(297): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#21 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#22 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 {main}
+"} 
+[2020-09-30 11:50:10] local.ERROR: The Pusher library requires the PHP cURL module. Please ensure it is installed {"exception":"[object] (Pusher\\PusherException(code: 0): The Pusher library requires the PHP cURL module. Please ensure it is installed at D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php:232)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\cinemarex\\vendor\\pusher\\pusher-php-server\\src\\Pusher.php(68): Pusher\\Pusher->check_compatibility()
+#1 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(217): Pusher\\Pusher->__construct('', '', '442678', Array)
+#2 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(193): Illuminate\\Broadcasting\\BroadcastManager->createPusherDriver(Array)
+#3 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(164): Illuminate\\Broadcasting\\BroadcastManager->resolve('pusher')
+#4 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(153): Illuminate\\Broadcasting\\BroadcastManager->get('pusher')
+#5 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Broadcasting\\BroadcastManager.php(313): Illuminate\\Broadcasting\\BroadcastManager->driver()
+#6 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(223): Illuminate\\Broadcasting\\BroadcastManager->__call('channel', Array)
+#7 D:\\xampp\\htdocs\\cinemarex\outes\\channels.php(16): Illuminate\\Support\\Facades\\Facade::__callStatic('channel', Array)
+#8 D:\\xampp\\htdocs\\cinemarex\\app\\Providers\\BroadcastServiceProvider.php(19): require('D:\\\\xampp\\\\htdocs...')
+#9 [internal function]: App\\Providers\\BroadcastServiceProvider->boot()
+#10 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#11 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#13 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(564): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#14 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(794): Illuminate\\Container\\Container->call(Array)
+#15 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(777): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\BroadcastServiceProvider))
+#16 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\BroadcastServiceProvider), 26)
+#17 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(778): array_walk(Array, Object(Closure))
+#18 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#19 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#20 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(297): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#21 D:\\xampp\\htdocs\\cinemarex\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#22 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 {main}
+"} 
+[2020-09-30 11:50:10] local.ERROR: Uncaught Error: Class 'Arr' not found in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught Error: Class 'Arr' not found in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
